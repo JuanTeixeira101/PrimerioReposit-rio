@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "dependencies": {
+    "bmp180-sim": "file:."
+  },
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp",
+      "top": -30,
+      "left": -40,
+      "attrs": {}
+    },
+    {
+      "type": "bmp180-sim",
+      "id": "bmp",
+      "top": 60,
+      "left": -10,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "esp:21", "bmp:SDA", "green", [] ],
+    [ "esp:22", "bmp:SCL", "green", [] ]
+  ]
+}
