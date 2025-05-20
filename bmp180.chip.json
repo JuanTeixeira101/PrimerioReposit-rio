@@ -1,0 +1,13 @@
+{
+  "name": "bmp180-sim",
+  "version": 1,
+  "author": "JuanTeixeira101",
+  "pins": [
+    { "name": "SDA", "type": "i2c" },
+    { "name": "SCL", "type": "i2c" }
+  ],
+  "i2c_addresses": [119],
+  "params": [],
+  "defaults": {},
+  "tags": ["sensor", "i2c", "pressure"]
+}
